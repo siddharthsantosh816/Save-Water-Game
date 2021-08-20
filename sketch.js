@@ -16,7 +16,7 @@ var flagB=0, flagA=0;
 var thunderSound, dangerSound, clapSound;
 var instruct,instructImg;
 
-function preload(){
+function prload(){
     dangerImg=loadImage('images/danger.png');
     bucketImg=loadImage('images/bucket.png');
     dropImg=loadImage('images/drop.png');
@@ -32,7 +32,7 @@ function preload(){
     instructImg=loadImage('images/Instruction.png');
 }
 
-function setup(){
+function seup(){
     createCanvas(600,600);
     waterGroup=createGroup();
     dangerGroup=createGroup();
